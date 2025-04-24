@@ -1,14 +1,14 @@
 {
 	"LaTeX - inline math (dollars)": {
 		"scope": "",	
-		"prefix": "ii",	
+		"prefix": "mk",	
 		"body": ["$$1$ $0"],
 		"description": "Create inline math formula"
 	},
 
 	"LaTeX - display math (dollars)": {
 		"scope": "", 
-		"prefix": "dd", 
+		"prefix": "dm", 
 		"body": ["$$ $1 $$$0"],
 		"description": "Create display math formula"
 	},
@@ -160,47 +160,47 @@
 	},
 	"LaTeX - mathbb{R} (alias)": {
 		"scope": "",
-		"prefix": "bbR",
+		"prefix": "RR",
 		"body": ["\\mathbb{R} "]
 	},
 	"LaTeX - mathbb{Z} (alias)": {
 		"scope": "",
-		"prefix": "bbZ",
+		"prefix": "ZZ",
 		"body": ["\\mathbb{Z} "]
 	},
 	"LaTeX - mathbb{Q} (alias)": {
 		"scope": "",
-		"prefix": "bbQ",
+		"prefix": "QQ",
 		"body": ["\\mathbb{Q} "]
 	},
 	"LaTeX - mathbb{N} (alias)": {
 		"scope": "",
-		"prefix": "bbN",
+		"prefix": "NN",
 		"body": ["\\mathbb{N} "]
 	},
 	"LaTeX - mathbb{C} (alias)": {
 		"scope": "",
-		"prefix": "bbC",
+		"prefix": "CC",
 		"body": ["\\mathbb{C} "]
 	},
 	"LaTeX - Leftrightarrow (alias)": {
 		"scope": "",
-		"prefix": "equivalent",
+		"prefix": "<=",
 		"body": ["\\Leftrightarrow "]
 	},
 	"LaTeX - Rightarrow (alias)": {
 		"scope": "",
-		"prefix": "implies",
+		"prefix": "=>",
 		"body": ["\\Rightarrow "]
 	},
 	"LaTeX - derivative (alias)": {
 		"scope": "",
-		"prefix": "deriv",
+		"prefix": "der",
 		"body": ["\\frac{d${1:f}}{d${2:x}} $0"]
 	},
 	"LaTeX - partial derivative (alias)": {
 		"scope": "",
-		"prefix": "pderiv",
+		"prefix": "pder",
 		"body": ["\\frac{\\partial ${1:f}}{\\partial ${2:x}} $0"]
 	},
 	"LaTeX - cases (alias)": {
@@ -217,12 +217,12 @@
 
 	"LaTeX - frac": {
 		"scope": "",
-		"prefix": "frac",
+		"prefix": "/",
 		"body": ["\\frac{$1}{$2}$0"]
 	},
 	"LaTeX - sqrt": {
 		"scope": "",
-		"prefix": "sqrt",
+		"prefix": "sq",
 		"body": ["\\sqrt[$1]{$2}$0"]
 	},
 
